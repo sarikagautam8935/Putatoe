@@ -10,11 +10,6 @@ This is a sample HTML and CSS code for an online shopping site. It includes a he
 - Bootstrap
 - JavaScript
 
-## Preview 
-
-<img width="960" alt="Screenshot 2023-05-26 054427" src="https://github.com/KunalKhandekar/Flipkart-HomePage-Clone/assets/134169718/6998d42d-7925-4876-9f03-2f6fda9f99de">
-
-
 ## Getting Started
 
 To run this project locally, follow these steps:
