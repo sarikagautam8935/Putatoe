@@ -1,0 +1,2539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putatoe - An Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+    </title>
+
+    <!-- For Favicon -->
+    <link rel="icon" href="images/putatoe.webp">
+
+    <!-- For Arrow Symbols -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- For Header And Footer Stability -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- For Page Styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- For Mini Slider -->
+    <link rel="stylesheet" href="css/lightslider.css">
+
+    <!-- For Product Slider Design -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+<body>
+    <header>
+
+        <!-- Navigation Bar -->
+        <nav class="Navigator">
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="#">
+                    <img width="75" src="images/putatoe.webp"
+                        alt="Putatoe" title="Putatoe">
+                </a>
+                <a href="#">Explore <span>Plus</span>
+                    <img width="10" src="images/putatoe.webp">
+                </a>
+            </div>
+
+            <!-- Search -->
+            <div class="search">
+                <input class="form-control dropdown-toggle" type="search" placeholder="Search here" aria-label="Search"
+                    id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="searchlogo fa fa-search mt-2 ml-sm-1 text-primary"></i>
+            </div>
+
+            <!-- Login -->
+            <div class="login" style="width: 127px; flex-grow: 0; padding: 0px; ">
+                <button class="btn bg-white text-primary" type="button" id="loginMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Login
+                </button>
+                <div class="dropdown-menu login-list col-12 aria-labelledby=" loginMenuButton" style="width: 0%;">
+                    <div class="d-flex">
+                        <h6 class="ml-md-1">New Customer?</h6>
+                        <a href="#" class="ml-auto mr-2" id="signUp">Sign Up</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-user-circle text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="">My Profile</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-plus text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href=""> Plus Zone</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-book text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="">Orders</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-heart text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="">Wishlist</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-chess-bishop text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="">Rewards</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-gift text-primary mt-2 ml-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="">Gift Cards</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- become a seller button-->
+            <div class="seller">
+                <a href="#">Become a seller</a>
+            </div>
+
+            <!-- More button -->
+            <div class="col dropdown more" style=" flex-grow: 0;">
+                <a class="btn dropdown-toggle text-white ml-lg-2 ml-sm-0 bold" href="#" role="button" id="moreMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </a>
+
+                <div class="dropdown-menu more-list" aria-labelledby="moreMenuLink">
+                    <div class="d-flex">
+                        <i class="fa fa-bell text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="#">Notification Preferences</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-archive text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="#">Sell On Putatoe</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-question-circle text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="#">24x7 Customer Care</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-chart-line text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="#">Advertise</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="d-flex">
+                        <i class="fa fa-download text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                        <a class="dropdown-item" href="#">Download App</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cart -->
+            <div class="cart">
+                <i class="fa fa-shopping-cart text-white" aria-hidden="true"></i>
+                <a href="#" class="btn text-white">Cart</a>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+
+        <!-- Content Items -->
+        <div class="container1">
+            <ul id="autoWidth" class="cs-hidden">
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Grocery
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Mobile
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100"
+                            alt="" class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Fashion &#x2304;
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Electronics &#x2304;
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Home &#x2304;
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Appliances
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Travels
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Top offers
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt=""
+                            class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Toys & More &#x2304;
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100"
+                            alt="" class="model">
+                        <div class="details">
+                            <p class="character-details">
+                                Two Wheelers &#x2304;
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Banner Containers -->
+        <div class="boss">
+            <div class="content">
+                <div class="images">
+                    <img src="images/banner4.webp">
+                    <img src="images/Banner1.webp">
+                    <img src="images/Banner2.webp">
+                </div>
+                <div class="sliders left" onclick="side_slide(-1)">
+                    <span class="fas fa-angle-left"></span>
+                </div>
+                <div class="sliders right" onclick="side_slide(1)">
+                    <span class="fas fa-angle-right"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Best of Electronics section -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Best of Electronics</h4>
+            <div class="glider-contain">
+                <div class="glider">
+                    <div class="product-box">
+                        <span class="p-discount">-10%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="images/1-1a.webp" class="p-img-front" alt="Front">
+                                    <img src="images/1-1b.webp" alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Camera</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Canon EOS M50 Mark
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹59,990</span>
+                                <button class="p-buy-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-40%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="images/1-2a.webp" class="p-img-front" alt="Front">
+                                    <img src="images/1-2b.webp" alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Television</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Acer NITRO 21.5 inch Full HD
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹70,099</span>
+                                <button class="p-buy-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-50%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="images/1-3a.webp" class="p-img-front" alt="Front">
+                                    <img src="images/1-3b.webp" alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Projector</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                ZEBRONICS Zeb-PixaPlay 12
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹9,999</span>
+                                <button class="p-buy-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-28%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="images/1-4a.webp" class="p-img-front" alt="Front">
+                                    <img src="images/1-4b.webp" alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>PowerBank</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Callmate 20000 mAh Power Bank
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,199</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="images/1-5a.webp" class="p-img-front" alt="Front">
+                                    <img src="images/1-5b.webp" alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Printer</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                HP DeskJet 2723 Multi-function Printer
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹5,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-37%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l4ssfww0/shaver/p/r/p/538-professional-hair-cutting-machine-professional-rechargeable-original-imagfhm7pvgyaz3j.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l4ssfww0/shaver/p/r/f/538-professional-hair-cutting-machine-professional-rechargeable-original-imagfhm7ggecfxjx.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Shaver</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Zeus Volt Professional Shaver
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹4,900</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-37%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/khdqnbk0/computer/f/y/t/apple-original-imafxfyq6x3yhzxg.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Laptop</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                APPLE 2020 Macbook Air M1
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹84,900</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-57%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ku2zjww0/computer/r/f/d/na-gaming-laptop-hp-original-imag7a7fgvrae7uu.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ku2zjww0/computer/c/t/m/na-gaming-laptop-hp-original-imag7a7fkchq4kfn.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Laptop</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                HP HP Pavilion Ryzen 5 Hexa Core
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹56,990</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-27%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ky90scw0/refrigerator-new/o/k/7/-original-imagaj23kwbywehk.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/128/128/ky90scw0/refrigerator-new/e/p/z/-original-imagaj23a3kfu9cx.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Fridger</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Whirlpool 300 L Frost Free Triple Door Refrigerator
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹31,090</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-17%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/headphone/x/w/j/-original-imagmarhkg2bt9fw.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/headphone/c/x/h/-original-imagm5vxhmzpqfnt.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Smart-Watch</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                boAt Immortal 131 with Beast Mode
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,699</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Beauty, Food, Toys & more -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Beauty, Food, Toys & more</h4>
+            <div class="glider-contain">
+                <div class="slider">
+                    <div class="product-box">
+                        <span class="p-discount">-40%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/cycle/t/9/v/ut1001-mtb-27-5-16-urban-terrain-95-5-21-gear-original-imagg57seazgkhv3.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/cycle/m/o/b/ut1001-mtb-27-5-16-urban-terrain-95-5-21-gear-original-imagganwcrxzdx3a.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Cycle</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Urban Terrain UT1001 MTB 27.5 T Mountain Cycle
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹10,774</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-48%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/cycle/b/5/9/-original-imagpa5r9pvtgjgv.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kuczmvk0/cycle/e/b/x/xtrm-mtb-900-foldable-27-5-hrx-21-gear-original-imag7hqtsjufa2er.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Cycle</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                HRX XTRM MTB 900 Foldable 27.5 T Mountain Cycle
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹16,969</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-80%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kw6pw280/stuffed-toy/u/f/h/2-feet-pink-sitting-soft-and-cute-teddy-bear-with-just-for-you-original-imag8xfaf4zyvvs5.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Toy</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Tedstree 3 feet pink teddy bear - 90 cm (Pink)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹279</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-18%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/stuffed-toy/m/j/t/combo-of-unicorn-kitty-penguin-rabbit-pikachu-white-elephant-original-imaggzpygr6kh3ah.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kqv8vww0/stuffed-toy/n/v/k/combo-of-elephant-kitty-pikachu-pooh-white-elephant-cap-teddy-original-imag4rzwygdqyhrm.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Toy</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Combo Of ( Unicorn, Kitty, Penguin, Rabbit, Pikachu)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹599</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/toy-weapon/v/0/g/ak-47-toy-gun-shooting-gun-for-kids-with-laser-light-and-500-bb-original-imagg7kgpnhegz4n.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kr2e3680/toy-weapon/c/1/y/ak-47-toy-gun-shooting-gun-for-kids-with-laser-light-and-500-original-imag4xqgygygghzw.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Toy-Gun</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Miss & Chief by Putatoe AK 47 Toy Gun
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹599</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-27%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/remote-control-toy/1/i/e/rotating-eight-wheel-drift-spray-stunt-car-rc-cars-with-led-and-original-imagzycrvzynuc2z.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/remote-control-toy/s/x/1/rotating-eight-wheel-drift-spray-stunt-car-rc-cars-with-led-and-original-imagzycrgbkjy339.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Toy-Car</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                THELHARSATOYS Rotating Eight Wheel Drift Spray Stunt Car
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹3,955</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-80%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/scooter/g/c/n/road-runner-kick-scooter-for-kids-kids-10-r-for-rabbit-original-imagzmgwncvkxwkw.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/k3yrte80/scooter/g/h/g/road-runner-kick-scooter-for-kids-kick-scooter-r-for-rabbit-10-original-imafmz9hayxx5gfg.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Scooter</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Rabbit Road Runner Kick Scooter for Kids
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹3,799</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-7%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kc9eufk0/bath-tub/a/g/k/swimming-pool-inflatable-bathtub-for-kids-children-playing-toy-3-original-imaftfna23ggsy8g.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kc9eufk0/bath-tub/a/g/k/swimming-pool-inflatable-bathtub-for-kids-children-playing-toy-3-original-imaftfnbnehydzrn.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bathtub</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                YOZO Swimming Pool Inflatable Bathtub for Kids
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,000</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-57%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/bath-towel/8/a/w/hooded-baby-bath-towel-for-new-born-baby-boy-and-baby-girl-1-28-original-imagmxhquh37hjgf.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/bath-towel/k/m/x/hooded-baby-bath-towel-for-new-born-baby-boy-and-baby-girl-1-28-original-imagmxhqq95d2kkf.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Children Towel</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                BRANDONN Microfiber 360 GSM Bath Towel
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-82%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/klzhq4w0/jam-spread/p/h/y/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqzzycds9u.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Peanut-Butter</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                MYFITNESS Chocolate Peanut Butter Crunchy 510 g
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Fashion & Travel Essentials -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Fashion & Travel Essentials</h4>
+            <div class="glider-contain">
+                <div class="wlider">
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/71J5v1vrKaL._UX679_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/719ZLZHNaRL._UX679_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Jeans</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Men's Light Grey Slim Fit Jogger Jeans </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹699</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-30%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/61QdDL-QK3L._UY679_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/81h76adTqjS._UX679_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Men's Shirt</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Summer Wear Shirtl Short Sleeve Mens Shirt
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-9%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/81uiVzBm+mL._UY879_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/917KTiEn0pL._UY879_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Women Saree</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Women's Fancy Cotton Blend Batik Printed Saree
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/411f+nStfZL.jpg" class="p-img-front"
+                                        alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/51bCN2wuihL.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Combo</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Leriya Fashion Women's Plus Size Short Sleeve
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,199</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-0%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/817S2-D18WL._UY879_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/81074bF49cL._UY879_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Dress</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Janasya Women's Blue Woven Cotton Western Dress
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹799</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-3%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/91UAHT1Hd1S._UY625_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/81EASQlMkSS._UY535_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bag Pack</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Leather Briefcase Best Laptop Messenger Bag Satchel for Men
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹789</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-37%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/71HWNZIjMvL._UX679_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/71tYKcMZ1IL._UX679_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Laptop</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Trendy College Backpacks for Girls
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹899</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-50%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/81rjduptcXL._UX679_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/91eezNdASGL._UX679_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Travel Bag</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                60 Ltr Trekking Rucksack Travel Bag Hiking Backback
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,626</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-17%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/51mO7bKPGWL._UY679_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/51bj51XswWL._UY679_.jpg" alt="Back"
+                                        class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Shirt</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Casual Shirt for Men
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹990</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-1%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/61DvGQCfu-L._SY879._SX._UX._SY._UY_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://m.media-amazon.com/images/I/61vfArq4SmL._SY879._SX._UX._SY._UY_.jpg"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Kurta</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Dupion Silk Solid Kurta Churidar Pyjama for Men
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,699</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Two Wheelers -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Two Wheelers</h4>
+            <div class="glider-contain">
+                <div class="spider">
+                    <div class="product-box">
+                        <span class="p-discount">-10%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/y/w/4/-original-imagg6hm4sqsuhre.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/128/128/xif0q/electric-bike-scooter/x/v/9/-original-imagg9u6hnwnhn8g.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Hero Xtreme 160R (Double Disc) </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,22,951</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-50%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/x/d/7/-original-imagkfyzpk3zzpm5.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/2/m/q/-original-imagkfyzzmf6qfcq.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                OKAYA FAAST F4 Booking for Ex-showroom Price
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,13,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://m.media-amazon.com/images/I/71BLARlXsPL._SL1500_.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnfqodR156dS9HeGAO7dlNbJ1wnpvixLCGg&usqp=CAU"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Royal Enfield</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Royal Enfield Metal Meteor 350 Scale Model
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,30,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-88%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/b/a/8/-original-imaggcjzzhwsznds.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/r/b/g/-original-imagg9u6qzvw7wnf.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Hero Xpulse 200 4V (ABS Disc)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,29,863</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-10%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://imgd.aeplcdn.com/393x221/n/cw/ec/136951/bullet-right-side-view-7.png?isig=0&q=75"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://imgd.aeplcdn.com/393x221/n/cw/ec/136951/bullet-right-front-three-quarter-6.png?isig=0&q=75"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Royal Enfield Bullet 350
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹1,50,894</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-30%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://bd.gaadicdn.com/processedimages/kawasaki/kawasaki-ninja/source/kawasaki-ninja603f05f41c630.jpg"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://bd.gaadicdn.com/processedimages/kawasaki/kawasaki-ninja/source/kawasaki-ninja603f05f4bfb26.jpg"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Kawasaki Ninja 300
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹3,40,000</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-37%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://awsimages.detik.net.id/community/media/visual/2022/07/27/yamaha-rx-100_43.jpeg?w=700&q=90"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfCfy9nHlcBosdi3pUw9GoSspRDjekoI1uw&usqp=CAU"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Bike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Yamaha RX100
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹,1,10,000</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-80%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/k/3/i/-original-imaggazgqe8vmm9y.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/m/v/1/-original-imaggazgscjchkrg.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Scooter</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                BGauss BG B8
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹89,699</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-7%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/n/o/w/-original-imagztcfmreah2gm.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/h/c/f/-original-imagztcfyubxrhmp.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Scooter</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Ampere Zeal EX
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹75,000</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-19%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/s/2/a/-original-imagkfysprwmqzmj.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/electric-bike-scooter/t/z/g/-original-imagknarezayghzw.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Scooter</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                OKAYA Faast F2B
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹94,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Grocery -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Grocery</h4>
+            <div class="glider-contain">
+                <div class="grocery">
+                    <div class="product-box">
+                        <span class="p-discount">0%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kn3i1zk0/pasta/w/l/a/500-macaroni-pasta-regular-chef-s-basket-original-imagfubdt8sgjgte.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/pasta/s/4/g/-original-imagj7zg8uggcnaz.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Pasta</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                CHEF'S BASKET Macaroni Pasta (400 g)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹474</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-2%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l4yi7bk0/pasta/n/q/3/400-makhana-penne-pasta-100-maida-free-cholesterol-free-vegan-original-imagfqhhrr6n7ugv.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l1whaq80/pasta/l/c/m/800-makhana-penne-pasta-100-maida-free-vegan-regular-2-farmley-original-imagdd4zkkgxqjhg.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Pasta</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Farmley Makhana
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹69.5</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-0%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/noodle/u/j/i/-original-imagh3tzqymfwgnh.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/noodle/i/o/j/-original-imagh3tzychxyuva.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Noodles</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Yu Butter Chicken Cup Noodles
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹79.9</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-0.8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ky3b0y80/edible-oil/u/z/m/-original-imagaefd5rdhtk25.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ksm49e80/edible-oil/e/6/v/gold-pro-healthy-lifestyle-can-blended-oil-saffola-original-imag655ewgbgv8ax.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Oil</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Saffola Gold Refined Cooking Rice Bran & Sunflower Blended Oil
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹929</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-80%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/jklgxow0/ghee/k/j/b/500-pure-cow-pouch-gowardhan-original-imaf7x888tkywqhz.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/jklgxow0/ghee/k/j/b/500-pure-cow-pouch-gowardhan-original-imaf7x88mncgnby8.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Ghee</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Gowardhan Pure Cow Ghee 500 ml Pouch
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹399</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-7%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/coffee/y/r/n/-original-imaghb82vyhyyf2g.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/coffee/9/l/b/-original-imaghb82w8y5gn8x.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Coffee</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Nescafe Classic Instant Coffee (200 g)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹552</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kbb49zk0/cookie-biscuit/x/2/u/300-chocopie-lotte-original-imafszstz3v3hu6a.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kbb49zk0/cookie-biscuit/x/2/u/300-chocopie-lotte-original-imafszstphaghwkj.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Chocalate</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lotte Choco Pie - Soft Biscuits coated with Premium Chocolate
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹299</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-3%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l4ei1e80/aerated-drink/c/8/d/2-na-plastic-bottle-8-thums-up-original-imagfbypzpmyxseg.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/l4ei1e80/aerated-drink/c/c/q/2-na-plastic-bottle-8-thums-up-original-imagfbyp7fhjceyn.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Cold Drink</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Thums Up Plastic Bottle (8 x 250 ml)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹249</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-21%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/toilet-cleaner/z/b/a/-original-imagjae3sykfycnf.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/toilet-cleaner/r/y/x/-original-imagjae34a2bsuuj.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Toilet Cleaner</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Harpic Power Plus Disinfectant Original Liquid Toilet Cleaner
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹600</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kjabs7k0-0/spice-masala/a/a/9/chicken-masala-box-everest-powder-original-imafyvpgx3wmzzbq.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kjabs7k0-0/spice-masala/o/0/c/chicken-masala-box-everest-powder-original-imafyvpg3qwyzgkh.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Masala</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                EVEREST Chicken Masala (100 g)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹74</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Home & Appliances -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Home & Appliances</h4>
+            <div class="glider-contain">
+                <div class="Appliances">
+                    <div class="product-box">
+                        <span class="p-discount">-4%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/jawthu80/cabinet-drawer/r/r/n/mango-wood-kl-1810-the-attic-distress-white-original-imafydtzg3hh6sqh.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/jawthu80/cabinet-drawer/r/r/n/mango-wood-kl-1810-the-attic-distress-white-original-imafydzzntjbfjss.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Drawer</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                HE ATTIC Solid Wood Free Standing Sideboard
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹23,798</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/air-conditioner-new/r/h/r/-original-imagmxk4vufh82hw.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/air-conditioner-new/m/2/q/-original-imagmxk4au6thpvt.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Air Conditioner</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Whirlpool Convertible 4-in-1 Cooling 2023
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹31,990
+                                </span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">0%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/microwave-new/l/j/p/-original-imagk7x7jgrjna8z.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/microwave-new/u/v/d/-original-imagk7x7d9qzhzj2.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Oven</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Panasonic 20 L Solo Microwave Oven
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹6,490</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-10%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kmp7ngw0/refrigerator-new/4/5/n/nr-cy550gkxz-3-3-panasonic-original-imagfjhcmymbpyh7.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kmp7ngw0/refrigerator-new/9/s/x/nr-cy550qkxz-3-2020-panasonic-original-imagfjrtnawc5xyu.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Refrigerator</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Panasonic 550 L Frost Free Triple Door 3 Star Refrigerator
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹77,837</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-2%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kthjy4w0/water-purifier/3/h/d/ace-kent-original-imag6tz4dbrksgeh.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kf2v3ww0/water-purifier/n/z/f/kent-ace-original-imafvm9auj4bzygp.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Purifier</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                KENT Ace 8 L RO + UV + UF + TDS Water Purifier
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹12,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-57%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/k0h12fk0/food-processor/7/n/z/easy-prep-easy-prep-inalsa-original-imafk94whwhgns5m.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/k0vbgy80/food-processor/7/n/z/easy-prep-easy-prep-inalsa-original-imafkkgcdzywhnq8.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Mixer</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Inalsa Easy Prep_ 800 W Food Processor (Black)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹4,499</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/washing-machine-new/c/n/5/-original-imagzug8zr9wxuzw.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/washing-machine-new/s/p/z/-original-imagn8vpess282ny.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Washing Machine</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                LG 7 kg with Smart Diagnosis and Smart Inverter Fully Automatic Washing Machine
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹17,490</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-1%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/coffee-maker/t/o/x/correto-correto-havells-original-imaggc2kzfa9y5hy.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/coffee-maker/w/z/j/-original-imaghhrqyagap6jt.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Coffee Maker</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                HAVELLS CORRETTO 2 Cups Coffee Maker (Black)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹9,599</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-7%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/television/0/v/p/kd-50x64l-sony-original-imagp25yabqwwcek.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/television/t/t/4/kd-50x64l-sony-original-imagp25yx9mchg8k.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Television</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                SONY 125.7 cm (50 inch) Ultra HD (4K) LED Smart Google TV
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹55,990</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-82%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kmf7ki80/iron/b/k/r/sth3000-20-philips-original-imagfbmfp7ddhtvf.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/iron/j/c/t/-original-imaghhffkvt7njhb.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Streamer</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                PHILIPS STH3000/20 1000 W Garment Steamer (Blue)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹3,449</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- Smart Phones -->
+        <section class="p-slider">
+            <h4 class="product-slider-heading">Smart Phones</h4>
+            <div class="glider-contain">
+                <div class="SmartPhones">
+                    <div class="product-box">
+                        <span class="p-discount">-40%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/x/l/a/-original-imagkp8yzwmy8q6q.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Realme</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                realme 10 Pro 5G (Nebula Blue, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹19,999
+                                </span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/9/n/s/-original-imagkp8yxmxzhjes.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/c/n/z/-original-imagkp8ywfzbyuh8.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Realme</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                realme 10 Pro 5G (Hyperspace, 128 GB) (6 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹18,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/y/b/t/-original-imaggbrbkxzra38y.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Google</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Google Pixel 6a (Charcoal, 128 GB) (6 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹28,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-0.8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/v/f/d/-original-imagpgx4g2m63gfh.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/r/0/n/-original-imagpgx4krhxgyvm.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Google</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Google Pixel 7a (Snow, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹43,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-2%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/ky7lci80/mobile/j/u/r/-original-imagagf6zvvbfjjg.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kxz0pe80/mobile/o/l/f/-original-imagaaxk9ckkjr8d.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Xiaomi</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Xiaomi 11i Hypercharge 5G (Stealth Black, 128 GB) (6 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹23,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-7%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kox8b680/mobile/u/c/f/11x-pro-5g-11x-pro-mi-original-imag39qgfzbdaqtg.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kod858w0/mobile/3/c/p/11x-pro-11x-pro-mi-original-imag2tzhveuz6za6.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Xiaomi</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Mi 11X Pro 5G (Celestial Silver, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹34,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-8%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kr9jafk0/mobile/m/m/y/x3-pro-mzb08t9in-poco-original-imag52znesm3hemf.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/kmthz0w0/mobile/7/g/m/x3-pro-mzb08t8in-poco-original-imagfn94gdjjkcgf.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>POCO</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                POCO X3 Pro (Steel Blue, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹25,999
+                                </span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-2%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/v/m/j/-original-imaghgm2xxnswjqg.jpeg?q=70"
+                                        class="p-img-front" alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/w/j/o/-original-imaghgm2vff4enuh.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Infinix</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Infinix Hot 20 5G (Blaster Green, 128 GB) (6 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹13,499</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-5%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/d/u/7/-original-imagmgy5ywvzdv6g.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/y/z/5/-original-imagmgy5cptduewz.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>OPPO</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                OPPO Reno8T 5G (Midnight Black, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹29,999</span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-2%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/u/1/h/-original-imagpfbvfu4p55n4.jpeg?q=70"
+                                        alt="Front">
+                                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/j/q/k/-original-imagzjhwzybky2sm.jpeg?q=70"
+                                        alt="Back" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>Vivo</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                vivo T2 5G (Nitro Blaze, 128 GB) (8 GB RAM)
+                            </a>
+                            <div class="price-buy">
+                                <span class="p-price">₹20,999
+                                </span>
+                                <button class="p-buy-btn">Buy Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button aria-label="Previous" class="glider-prev"><span class="fas fa-angle-left"></span></button>
+                <button aria-label="Next" class="glider-next"><span class="fas fa-angle-right"></span></button>
+            </div>
+
+        </section>
+
+        <!-- information -->
+        <div class="container-fluid border information">
+            <div class="row">
+                <div class="col">
+                    <h1 class="pt-3">Putatoe: The One-stop Shopping Destination</h1>
+                    <p class="info">
+                        E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one
+                        store to
+                        another in search of the latest phone when you can find it on the Internet in a single click?
+                        Not
+                        only mobiles. Putatoe houses everything you can possibly imagine, from trending electronics
+                        like
+                        laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes,
+                        clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and
+                        wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder
+                        juicers and other time-saving kitchen and small appliances; from home furnishings like cushion
+                        covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You
+                        name
+                        it, and you can stay assured about finding them all here. For those of you with erratic working
+                        hours, Putatoe is your best bet. Shop in your PJs, at night or in the wee hours of the morning.
+                        This e-commerce never shuts down.
+                    </p>
+                    <p class="info">
+                        What's more, with our year-round shopping festivals and events, our prices are irresistible.
+                        We're
+                        sure you'll find yourself picking up more than what you had in mind. If you are wondering why
+                        you
+                        should shop from Putatoe when there are multiple options available to you, well, the below will
+                        answer your question.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Putatoe Plus</h2>
+                    <p class="info">
+                        A world of limitless possibilities awaits you - Putatoe Plus was kickstarted as a loyalty
+                        reward
+                        programme for all its regular customers at zero subscription fee. All you need is 500 supercoins
+                        to
+                        be a part of this service. For every 100 rupees spent on Putatoe order, Plus members earns 4
+                        supercoins &amp; non-plus members earn 2 supercoins. Free delivery, early access during sales
+                        and
+                        shopping festivals, exchange offers and priority customer service are the top benefits to a
+                        Putatoe
+                        Plus member. In short, earn more when you shop more!
+                    </p>
+                    <p class="info">
+                        What's more, you can even use the Putatoe supercoins for a number of exciting services,
+                        like:<br>An
+                        annual Zomato Gold membership<br>An annual Hotstar Premium membership<br>6 months Gaana plus
+                        subscription<br>Rupees 550 instant discount on flights on ixigo<br>Check out
+                        https://www.putatoe.com/plus/all-offers for the entire list. Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>No Cost EMI</h2>
+                    <p class="info">
+                        In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to
+                        shop
+                        with us under EMI, without shelling out any processing fee. Applicable on select mobiles,
+                        laptops,
+                        large and small appliances, furniture, electronics and watches, you can now shop without burning
+                        a
+                        hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up
+                        for a
+                        no cost EMI. Take a look ASAP! Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>EMI on Debit Cards</h2>
+                    <p class="info">
+                        Did you know debit card holders account for 79.38 crore in the country, while there are only
+                        3.14
+                        crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online
+                        shopping accessible to everyone, Putatoe introduces EMI on Debit Cards, empowering you to shop
+                        confidently with us without having to worry about pauses in monthly cash flow. At present, we
+                        have
+                        partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More
+                        power to all our shoppers! Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Mobile Exchange Offers</h2>
+                    <p class="info">
+                        Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for
+                        a
+                        new one after the Putatoe experts calculate the value of your old phone, provided it is in a
+                        working condition without damage to the screen. If a phone is applicable for an exchange offer,
+                        you
+                        will see the 'Buy with Exchange' option on the product description of the phone. So, be smart,
+                        always opt for an exchange wherever possible. Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>What Can You Buy From Putatoe?</h2>
+                    <h2>Mobile Phones</h2>
+                    <p class="info">
+                        From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there.
+                        Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast
+                        processors,
+                        beautification apps, high-tech selfie cameras or just large internal space, we take care of all
+                        the
+                        essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo,
+                        and
+                        Honor to name a few. Rest assured, you're buying from only the most reliable names in the
+                        market.
+                        What's more, with Putatoe's Complete Mobile Protection Plan, you will never again find the need
+                        to
+                        run around service centres. This plan entails you to a number of post-purchase solutions,
+                        starting
+                        at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software
+                        glitches,
+                        and replacements - <b>the Putatoe Complete Mobile Protection</b> covers a comprehensive range
+                        of
+                        post-purchase problems, with door-to-door services.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Electronic Devices and Accessories</h2>
+                    <p class="info">
+                        When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating
+                        systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for
+                        personalized
+                        results in a flash. All you students out there, confused about what laptop to get? Our <b>Back
+                            To
+                            College Store</b> segregates laptops purpose wise (gaming, browsing and research, project
+                        work,
+                        entertainment, design, multitasking) with recommendations from top brands and industry experts,
+                        facilitating a shopping experience that is quicker and simpler.
+                    </p>
+                    <p class="info">
+                        Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras,
+                        ever
+                        reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for
+                        adventure junkies: our range of cameras is as much for beginners as it is for professionals.
+                        Canon,
+                        Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography
+                        lovers,
+                        you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable
+                        point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure
+                        junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon,
+                        GoPro, Sony, and Fujifilm are some big names you'll find in our store.
+                    </p>
+                    <p class="info">
+                        Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate
+                        range
+                        of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+                    </p>
+                    <p class="info">
+                        How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging
+                        mobile
+                        accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie
+                        sticks
+                        can prove to be ideal travel companions for you and your phone; never again worry about running
+                        out
+                        of charge or memory on your next vacation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Large Appliances</h2>
+                    <p class="info">
+                        Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines -
+                        discover
+                        everything you need to run a house under one roof. Our <b>Dependable TV and Appliance Store</b>
+                        ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and
+                        installation as per your convenience and a double warranty (Official Brand Warranty along with
+                        an
+                        extended Putatoe Warranty) - rest assured, value for money is what is promised and delivered.
+                        Shop
+                        from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic,
+                        Godrej,
+                        Sony, Daikin, and Hitachi among many others.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Small Home Appliances</h2>
+                    <p class="info">
+
+                        Find handy and practical home appliances designed to make your life simpler: electric kettles,
+                        OTGs,
+                        microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving
+                        appliances that are truly crafted for a quicker lifestyle. Live life king size with these
+                        appliances
+                        at home.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Lifestyle</h2>
+                    <p class="info">
+                        Putatoe, <b>'India ka Fashion Capital'</b>, is your one-stop fashion destination for anything
+                        and
+                        everything you need to look good. Our exhaustive range of Western and Indian wear, summer and
+                        winter
+                        clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up,
+                        grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites
+                        like
+                        Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens
+                        of
+                        other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants,
+                        traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe
+                        that is
+                        up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for
+                        carefully curated designs that are the talk of the town. Get ready to be spoiled for
+                        choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Putatoe will have
+                        your
+                        back each time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Home and Furniture</h2>
+                    <p class="info">
+                        Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets,
+                        dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the
+                        hundreds
+                        of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture
+                        will stand the test of time? These are questions you must ask before you choose a store. Well,
+                        our
+                        <b>Durability Certified Furniture Store</b> has not only curated a range of furniture keeping in
+                        mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they
+                        last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests
+                        so
+                        that you receive only the best-quality furniture. <b>Be FurniSure</b>, always. Names to look out
+                        for
+                        are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.
+                    </p>
+                    <p class="info">
+                        You may have your furniture all set up, but they could end up looking flat and incomplete
+                        without
+                        complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps
+                        -
+                        find everything that turns a house to an inviting home under one roof at Putatoe.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Baby and Kids</h2>
+                    <p class="info">
+                        Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an
+                        expecting mother or a new mother, you will find everything you need to set sail on a smooth
+                        parenting journey with the help of our baby care collection. When it comes to safety, hygiene
+                        and
+                        comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson
+                        &amp;
+                        Johnson: we host only the most-trusted names in the business for your baby.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Books, Sports and Games</h2>
+                    <p class="info">
+                        Work hard and no play? We don't believe in that. Get access to best-selling fiction and
+                        non-fiction
+                        books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming
+                        consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you
+                        to
+                        get moving.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Grocery/Supermart</h2>
+                    <p class="info">
+                        Launching into the grocery vertical, Putatoe introduces <b>Supermart</b> that is out to bring
+                        everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care,
+                        breakfast
+                        essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to
+                        present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only
+                        -
+                        our <b>1 Rupee Store</b> presents new products every day for a nominal price of 1 Rupee only.
+                        Terms
+                        and conditions apply.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col ml-md-3 Footer">
+                <h6>ABOUT</h6>
+                <div>
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Putatoe Stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Putatoe</a>
+                    <a href="#">Wholesale</a>
+                </div>
+            </div>
+            <div class="col Footer">
+                <h6>HELP</h6>
+                <div>
+                    <a href="#">Payments</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancellation & Returns</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Report</a>
+                    <a href="#">Infringement</a>
+                </div>
+            </div>
+            <div class="col Footer">
+                <h6>POLICY</h6>
+                <div>
+                    <a href="#">Return Policy</a>
+                    <a href="#">Term of Use</a>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">EPR Compliance</a>
+                </div>
+            </div>
+            <div class="col Footer">
+                <h6>SOCIAL</h6>
+                <div>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">You Tube</a>
+                </div>
+            </div>
+            <div class="col Footer border-left border-secondary">
+                <h6>Mail Us:</h6>
+                <div>
+                    <p>Putatoe Internet Private Limited,</p>
+                    <p>Buildings Alyssa, Begonia &</p>
+                    <p>Clove Embassy Tech Village,</p>
+                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                    <p>Bengaluru, 560103,</p>
+                    <p>Karnataka, India</p>
+                </div>
+            </div>
+            <div class="col Footer">
+                <h6>Registered Office Address:</h6>
+                <div>
+                    <p>Putatoe Internet Private Limited,</p>
+                    <p>Buildings Alyssa, Begonia &</p>
+                    <p>Clove Embassy Tech Village,</p>
+                    <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                    <p>Bengaluru, 560103,</p>
+                    <p>Karnataka, India</p>
+                    <p>CIN : U51109KA2012PTC066107</p>
+                    <p>Telephone: <a href="#" class="text-primary">1800 208 9898</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row border-top mt-5 py-3 border-secondary">
+            <div class="col">
+                <i class="fa fa-briefcase text-warning"></i>
+                <span>Sell On Putatoe</span>
+            </div>
+            <div class="col">
+                <i class="fab fa-stumbleupon-circle text-warning"></i>
+                <span>Advertise</span>
+            </div>
+            <div class="col">
+                <i class="fa fa-gift text-warning"></i>
+                <span>Gift Cards</span>
+            </div>
+            <div class="col">
+                <i class="fa fa-question-circle text-warning"></i>
+                <span>Help Center</span>
+            </div>
+            <div class="col col-md-2 col-xs-4">
+                <span>&copy; 2007-2020 Putatoe.com</span>
+            </div>
+            <div class="col col-md-5 col-xs-6">
+                <img class="img-fluid" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_7934bc.svg">
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Java scripts -->
+
+    <!-- For Mini Slider -->
+    <script src="js/Jquery.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/script-mini.js"></script>
+    <!-- For banner container Slider -->
+    <script src="js/script.js"></script>
+    <!-- For Product Container -->
+    <script src="js/glider.min.js"></script>
+    <script src="js/glider-slider.js"></script>
+</body>
+
+</html>
